@@ -3,3 +3,7 @@
  cd $GOPATH/src/apiserver  
  make  
  ./apiserver -v   (查看apiserver版本信息)
+3. 启动脚本  
+cd $GOPATH/src/apiserver  
+make  
+./admin.sh start

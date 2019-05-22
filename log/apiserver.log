@@ -135,3 +135,8 @@
 {"level":"INFO","timestamp":"2019-05-22 12:56:10.891","file":"apiserver/main.go:62","msg":"Start to listening the incoming requests on https address: :8081"}
 {"level":"INFO","timestamp":"2019-05-22 12:56:10.898","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-05-22 12:56:43.715","file":"middleware/logging.go:84","msg":"6.346ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 15:20:45.813","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 15:20:45.813","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 15:20:45.813","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 15:20:45.815","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 15:21:27.713","file":"middleware/logging.go:84","msg":"6.036ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
