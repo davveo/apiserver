@@ -140,3 +140,119 @@
 {"level":"INFO","timestamp":"2019-05-22 15:20:45.813","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
 {"level":"INFO","timestamp":"2019-05-22 15:20:45.815","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-05-22 15:21:27.713","file":"middleware/logging.go:84","msg":"6.036ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:30.040","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:30.040","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:30.041","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:30.044","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:31.047","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:31.048","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:32.050","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:32.051","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:33.056","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:33.058","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:34.061","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:34.063","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:35.067","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:35.068","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:36.073","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:36.074","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:37.075","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:37.076","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:38.081","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:38.082","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:08:39.084","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:08:39.086","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"FATAL","timestamp":"2019-05-22 16:08:40.090","file":"apiserver/main.go:67","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 26 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc0000ac1e0, 0xc0003cc240, 0x2, 0x2, 0x4, 0x48b21ce, 0x42, 0x49b52e0, 0xc0003c44a0, 0x0, ...)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:135 +0x8de\ngithub.com/lexkong/log/lager.(*logger).log(0xc0000ac1e0, 0x4, 0x48b21ce, 0x42, 0x49b52e0, 0xc0003c44a0, 0x0, 0x0, 0x0)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:123 +0xd9\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc0000ac1e0, 0x48b21ce, 0x42, 0x49b52e0, 0xc0003c44a0, 0x0, 0x0, 0x0)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:197 +0x83\ngithub.com/lexkong/log.Fatal(...)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/st_lager.go:162\nmain.main.func1()\n\t/Users/gengmei/go_projects/src/apiserver/main.go:67 +0xc6\ncreated by main.main\n\t/Users/gengmei/go_projects/src/apiserver/main.go:65 +0x452\n"}}
+{"level":"INFO","timestamp":"2019-05-22 16:09:21.778","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:21.778","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:21.778","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:21.779","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:22.780","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:22.782","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:23.785","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:23.786","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:24.791","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:24.792","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:25.735","file":"middleware/logging.go:84","msg":"3.576ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:25.795","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:25.795","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:26.800","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:26.801","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:27.803","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:27.804","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:28.809","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:28.810","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:29.814","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:29.819","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:09:30.822","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:09:30.823","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"FATAL","timestamp":"2019-05-22 16:09:31.828","file":"apiserver/main.go:67","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 50 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc0000b2240, 0xc00009ec20, 0x2, 0x2, 0x4, 0x48b21ce, 0x42, 0x49b52e0, 0xc000094fa0, 0x0, ...)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:135 +0x8de\ngithub.com/lexkong/log/lager.(*logger).log(0xc0000b2240, 0x4, 0x48b21ce, 0x42, 0x49b52e0, 0xc000094fa0, 0x0, 0x0, 0x0)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:123 +0xd9\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc0000b2240, 0x48b21ce, 0x42, 0x49b52e0, 0xc000094fa0, 0x0, 0x0, 0x0)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:197 +0x83\ngithub.com/lexkong/log.Fatal(...)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/st_lager.go:162\nmain.main.func1()\n\t/Users/gengmei/go_projects/src/apiserver/main.go:67 +0xc6\ncreated by main.main\n\t/Users/gengmei/go_projects/src/apiserver/main.go:65 +0x452\n"}}
+{"level":"INFO","timestamp":"2019-05-22 16:13:49.279","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:49.279","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:49.279","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:49.282","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:50.287","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:50.288","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:51.293","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:51.296","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:52.299","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:52.300","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:53.301","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:53.302","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:54.304","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:54.305","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:55.308","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:55.309","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:56.310","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:56.311","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:57.316","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:57.317","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:13:58.321","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:13:58.322","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"FATAL","timestamp":"2019-05-22 16:13:59.324","file":"apiserver/main.go:67","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 40 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc0001a7c80, 0xc0001af720, 0x2, 0x2, 0x4, 0x48b21ce, 0x42, 0x49b52e0, 0xc000454790, 0x0, ...)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:135 +0x8de\ngithub.com/lexkong/log/lager.(*logger).log(0xc0001a7c80, 0x4, 0x48b21ce, 0x42, 0x49b52e0, 0xc000454790, 0x0, 0x0, 0x0)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:123 +0xd9\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc0001a7c80, 0x48b21ce, 0x42, 0x49b52e0, 0xc000454790, 0x0, 0x0, 0x0)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/lager/logger.go:197 +0x83\ngithub.com/lexkong/log.Fatal(...)\n\t/Users/gengmei/go_projects/src/github.com/lexkong/log/st_lager.go:162\nmain.main.func1()\n\t/Users/gengmei/go_projects/src/apiserver/main.go:67 +0xc6\ncreated by main.main\n\t/Users/gengmei/go_projects/src/apiserver/main.go:65 +0x452\n"}}
+{"level":"INFO","timestamp":"2019-05-22 16:15:23.691","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8090"}
+{"level":"INFO","timestamp":"2019-05-22 16:15:23.691","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8090"}
+{"level":"INFO","timestamp":"2019-05-22 16:15:23.691","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:15:23.692","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 16:17:04.040","file":"middleware/logging.go:84","msg":"207µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-05-22 16:17:12.625","file":"middleware/logging.go:84","msg":"6.746ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:17:17.805","file":"middleware/logging.go:84","msg":"4.019ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:18:38.478","file":"middleware/logging.go:84","msg":"6.026ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:18:44.261","file":"middleware/logging.go:84","msg":"6.553ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:19:51.914","file":"middleware/logging.go:84","msg":"110µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-05-22 16:21:56.474","file":"middleware/logging.go:84","msg":"7.424ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:34:54.244","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:34:54.244","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:34:54.244","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:34:54.245","file":"apiserver/main.go:97","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-22 16:34:55.246","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:34:55.249","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 16:35:11.753","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:11.753","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:11.753","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:11.753","file":"apiserver/main.go:83","msg":"listen tcp :8082: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:11.754","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 16:35:25.316","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:25.316","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:25.316","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:25.318","file":"apiserver/main.go:78","msg":"listen tcp :8081: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-05-22 16:35:25.318","file":"apiserver/main.go:83","msg":"listen tcp :8082: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:06.005","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:06.005","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:06.005","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:06.006","file":"apiserver/main.go:78","msg":"listen tcp :8081: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:06.006","file":"apiserver/main.go:83","msg":"listen tcp :8082: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:18.933","file":"config/config.go:75","msg":"Config file changed: /Users/gengmei/go_projects/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:25.408","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:25.408","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:25.408","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:25.409","file":"apiserver/main.go:78","msg":"listen tcp :8081: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-05-22 16:36:25.410","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 16:39:16.637","file":"user/list.go:12","msg":"List function called."}
+{"level":"INFO","timestamp":"2019-05-22 16:39:16.642","file":"middleware/logging.go:84","msg":"4.628ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:39:30.733","file":"user/list.go:12","msg":"List function called."}
+{"level":"INFO","timestamp":"2019-05-22 16:39:30.745","file":"middleware/logging.go:84","msg":"11.445ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:39:35.459","file":"user/list.go:12","msg":"List function called."}
+{"level":"INFO","timestamp":"2019-05-22 16:39:35.467","file":"middleware/logging.go:84","msg":"7.984ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 16:39:41.969","file":"user/list.go:12","msg":"List function called."}
+{"level":"INFO","timestamp":"2019-05-22 16:39:41.974","file":"middleware/logging.go:84","msg":"5.72ms        | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
