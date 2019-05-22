@@ -1,2 +1,1 @@
-# ApiServer
-A tiny apiserver demo
+1. 修改配置文件后, 没有进行热启动

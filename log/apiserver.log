@@ -1,0 +1,137 @@
+{"level":"ERROR","timestamp":"2019-05-20 16:10:36.282","file":"model/init.go:27","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"INFO","timestamp":"2019-05-20 19:46:46.670","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-20 19:46:46.670","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-20 19:46:46.675","file":"apiserver/main.go:72","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-05-20 19:46:47.677","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-20 19:46:47.679","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 11:20:55.886","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 11:20:55.886","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 11:20:55.889","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-05-21 11:23:11.436","file":"user/create.go:21","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2019-05-21 11:23:21.791","file":"user/create.go:21","msg":"username is: [admin], password is [123]"}
+{"level":"DEBUG","timestamp":"2019-05-21 11:23:51.250","file":"user/create.go:21","msg":"username is: [], password is [123]"}
+{"level":"ERROR","timestamp":"2019-05-21 11:23:51.250","file":"user/create.go:24","msg":"Get an error","data":{"error":"Err - code: 20102, message: The user was not found. This is add message., error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2019-05-21 11:23:51.250","file":"user/create.go:28","msg":"err type is ErrUserNotFound"}
+{"level":"INFO","timestamp":"2019-05-21 11:57:04.442","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 11:57:04.442","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 11:57:04.445","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 11:58:08.584","file":"user/create.go:18","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2019-05-21 11:58:08.584","file":"user/create.go:21","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2019-05-21 11:58:08.584","file":"user/create.go:24","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-05-21 11:58:08.584","file":"user/create.go:26","msg":"username is: [], password is [admin]"}
+{"level":"INFO","timestamp":"2019-05-21 11:59:10.767","file":"user/create.go:18","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2019-05-21 11:59:10.767","file":"user/create.go:21","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2019-05-21 11:59:10.767","file":"user/create.go:24","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-05-21 11:59:10.767","file":"user/create.go:26","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2019-05-21 11:59:38.074","file":"user/create.go:18","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2019-05-21 11:59:38.074","file":"user/create.go:21","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2019-05-21 11:59:38.074","file":"user/create.go:24","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-05-21 11:59:38.074","file":"user/create.go:26","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2019-05-21 15:15:24.817","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:15:24.817","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:15:24.820","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:16:07.870","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:18:32.227","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:20:42.658","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:20:44.464","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:21:08.965","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:21:08.965","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:21:08.967","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:21:12.138","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:21:16.652","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:21:19.472","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:21:50.045","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:21:50.045","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:21:50.046","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:22:02.406","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:22:02.406","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:22:02.408","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:22:15.537","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:22:56.003","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:23:13.681","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:23:20.064","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:23:25.794","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:38:30.319","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:38:30.319","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:38:30.321","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:53:43.179","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:53:43.179","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2019-05-21 15:53:43.185","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:54:05.407","file":"config/config.go:75","msg":"Config file changed: /Users/gengmei/go_projects/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-21 15:54:13.743","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-21 15:54:13.743","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-21 15:54:13.749","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:56:05.981","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:56:32.564","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 15:58:26.669","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-21 15:58:26.668","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-21 15:58:26.671","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 15:59:06.491","file":"user/update.go:15","msg":"Update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 16:01:48.253","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-21 16:01:48.254","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-21 16:01:48.258","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-21 16:02:30.989","file":"user/update.go:15","msg":"Update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-21 16:03:22.626","file":"user/update.go:15","msg":"Update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-05-22 11:16:45.862","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 11:16:45.862","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 11:16:45.864","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-05-22 11:17:16.617","file":"middleware/logging.go:47","msg":"New request come in, path: /v1/user/kong, Method: GET, body ``"}
+{"level":"ERROR","timestamp":"2019-05-22 11:17:16.624","file":"middleware/logging.go:66","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2019-05-22 11:17:16.624","file":"middleware/logging.go:73","msg":"7.525ms       | 127.0.0.1    | GET /v1/user/kong | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"DEBUG","timestamp":"2019-05-22 11:18:07.070","file":"middleware/logging.go:47","msg":"New request come in, path: /v1/user/kong33333, Method: GET, body ``"}
+{"level":"ERROR","timestamp":"2019-05-22 11:18:07.073","file":"middleware/logging.go:66","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2019-05-22 11:18:07.073","file":"middleware/logging.go:73","msg":"2.911ms       | 127.0.0.1    | GET /v1/user/kong33333 | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"DEBUG","timestamp":"2019-05-22 11:18:13.355","file":"middleware/logging.go:47","msg":"New request come in, path: /v1/user/kong33333, Method: GET, body ``"}
+{"level":"ERROR","timestamp":"2019-05-22 11:18:13.358","file":"middleware/logging.go:66","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2019-05-22 11:18:13.358","file":"middleware/logging.go:73","msg":"2.358ms       | 127.0.0.1    | GET /v1/user/kong33333 | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"DEBUG","timestamp":"2019-05-22 11:18:34.691","file":"middleware/logging.go:47","msg":"New request come in, path: /v1/user/kong33333, Method: GET, body ``"}
+{"level":"ERROR","timestamp":"2019-05-22 11:18:34.695","file":"middleware/logging.go:66","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2019-05-22 11:18:34.695","file":"middleware/logging.go:73","msg":"3.725ms       | 127.0.0.1    | GET /v1/user/kong33333 | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"DEBUG","timestamp":"2019-05-22 11:18:38.569","file":"middleware/logging.go:47","msg":"New request come in, path: /v1/user/kong33333, Method: GET, body ``"}
+{"level":"ERROR","timestamp":"2019-05-22 11:18:38.572","file":"middleware/logging.go:66","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2019-05-22 11:18:38.572","file":"middleware/logging.go:73","msg":"2.661ms       | 127.0.0.1    | GET /v1/user/kong33333 | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"DEBUG","timestamp":"2019-05-22 11:20:50.160","file":"middleware/logging.go:47","msg":"New request come in, path: /v1/user, Method: GET, body ``"}
+{"level":"ERROR","timestamp":"2019-05-22 11:20:50.165","file":"middleware/logging.go:66","msg":"response body can not unmarshal to model.Response struct, body: ``","data":{"error":"unexpected end of JSON input"}}
+{"level":"INFO","timestamp":"2019-05-22 11:20:50.165","file":"middleware/logging.go:73","msg":"4.944ms       | 127.0.0.1    | GET /v1/user | {code: 10001, message: unexpected end of JSON input}"}
+{"level":"INFO","timestamp":"2019-05-22 11:22:44.941","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 11:22:44.941","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 11:22:44.942","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 11:27:20.721","file":"middleware/logging.go:84","msg":"4.965ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 11:27:31.764","file":"middleware/logging.go:84","msg":"2.559ms       | 127.0.0.1    | GET /v1/user/kong33333 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 11:30:56.615","file":"config/config.go:75","msg":"Config file changed: /Users/gengmei/go_projects/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-22 12:41:32.891","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:41:32.891","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:41:32.892","file":"apiserver/main.go:58","msg":"listen tcp :8080: bind: address already in use"}
+{"level":"INFO","timestamp":"2019-05-22 12:42:04.953","file":"apiserver/main.go:57","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:42:04.953","file":"apiserver/main.go:65","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:42:04.955","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 12:42:24.245","file":"middleware/logging.go:84","msg":"77.67ms       | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 12:43:17.923","file":"middleware/logging.go:84","msg":"335µs         | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:44:02.227","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":"06bc4ae2-592f-47cc-b7db-be554de09e1b"}}
+{"level":"INFO","timestamp":"2019-05-22 12:44:02.313","file":"middleware/logging.go:84","msg":"87.085ms      | 127.0.0.1    | POST /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-22 12:44:07.768","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":"128342b8-8167-4932-b85f-6a993c2b9662"}}
+{"level":"INFO","timestamp":"2019-05-22 12:44:07.849","file":"middleware/logging.go:84","msg":"81.434ms      | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:44:13.006","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":"b11f30c2-2992-438d-85dc-a23e5dc0a1fd"}}
+{"level":"INFO","timestamp":"2019-05-22 12:44:13.085","file":"middleware/logging.go:84","msg":"79.331ms      | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:44:16.040","file":"middleware/logging.go:84","msg":"89µs          | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:44:17.279","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":"e0cc28ee-b69e-41f9-b0f1-9916ab0e5f36"}}
+{"level":"INFO","timestamp":"2019-05-22 12:44:17.362","file":"middleware/logging.go:84","msg":"83.434ms      | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:44:19.134","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":"dac46d9f-6161-4c4d-9a94-1764e8f9f32d"}}
+{"level":"INFO","timestamp":"2019-05-22 12:44:19.221","file":"middleware/logging.go:84","msg":"86.504ms      | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:44:58.028","file":"user/create.go:15","msg":"User Create function called.","data":{"X-Request-Id":"9cb38f78-509e-427e-a57a-03cee2f7f1be"}}
+{"level":"INFO","timestamp":"2019-05-22 12:44:58.107","file":"middleware/logging.go:84","msg":"80.03ms       | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:46:55.359","file":"middleware/logging.go:84","msg":"309µs         | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:46:59.524","file":"middleware/logging.go:84","msg":"109µs         | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2019-05-22 12:51:26.139","file":"config/config.go:75","msg":"Config file changed: /Users/gengmei/go_projects/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-22 12:52:09.933","file":"config/config.go:75","msg":"Config file changed: /Users/gengmei/go_projects/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-22 12:54:20.867","file":"apiserver/main.go:67","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:54:20.867","file":"apiserver/main.go:62","msg":"Start to listening the incoming requests on https address: 8081"}
+{"level":"INFO","timestamp":"2019-05-22 12:54:20.867","file":"apiserver/main.go:75","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:54:20.868","file":"apiserver/main.go:63","msg":"listen tcp: address 8081: missing port in address"}
+{"level":"INFO","timestamp":"2019-05-22 12:54:20.869","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 12:56:02.326","file":"config/config.go:75","msg":"Config file changed: /Users/gengmei/go_projects/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2019-05-22 12:56:10.891","file":"apiserver/main.go:75","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:56:10.891","file":"apiserver/main.go:67","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-22 12:56:10.891","file":"apiserver/main.go:62","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-22 12:56:10.898","file":"apiserver/main.go:54","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-22 12:56:43.715","file":"middleware/logging.go:84","msg":"6.346ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
