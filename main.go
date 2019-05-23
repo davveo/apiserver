@@ -58,7 +58,7 @@ func main() {
 
 		// Middlwares.
 		middleware.RequestId(),
-		// middleware.Logging(),
+		middleware.Logging(),
 	)
 
 	// Ping the server to make sure the router is working.
