@@ -256,3 +256,28 @@
 {"level":"INFO","timestamp":"2019-05-22 16:39:35.467","file":"middleware/logging.go:84","msg":"7.984ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
 {"level":"INFO","timestamp":"2019-05-22 16:39:41.969","file":"user/list.go:12","msg":"List function called."}
 {"level":"INFO","timestamp":"2019-05-22 16:39:41.974","file":"middleware/logging.go:84","msg":"5.72ms        | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2019-05-23 18:01:13.416","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:01:13.416","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-23 18:01:13.416","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:01:13.418","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-23 18:03:15.065","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:03:15.065","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:03:15.066","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-23 18:03:15.071","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-23 18:12:28.485","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:12:28.485","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:12:28.485","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-23 18:12:28.487","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-23 18:13:41.716","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:13:41.716","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-23 18:13:41.715","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:13:41.722","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-23 18:18:22.252","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:18:22.252","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:18:22.252","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-23 18:18:22.254","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-05-23 18:30:41.941","file":"apiserver/main.go:83","msg":"accept tcp [::]:8080: accept: too many open files in system"}
+{"level":"INFO","timestamp":"2019-05-23 18:34:50.058","file":"apiserver/main.go:82","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:34:50.059","file":"apiserver/main.go:90","msg":"read url from file, the url is: http://127.0.0.1:8080"}
+{"level":"INFO","timestamp":"2019-05-23 18:34:50.059","file":"apiserver/main.go:77","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2019-05-23 18:34:50.064","file":"apiserver/main.go:69","msg":"The router has been deployed successfully."}
